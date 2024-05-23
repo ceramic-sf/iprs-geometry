@@ -22,9 +22,7 @@ Dimensions of the inverted planetary roller screw mechanism
 Planetary roller screws (PRS) and inverted planetary roller screws (IPRS) are mechanisms
 that convert rotation into linear movement. A spur gear on the roller prevents roller over/under rotation.
 In a PRS the second gear is a ring gear on the nut, whereas in an IPRS, the second gear is on the screw.
-This difference results in different screw and roller geometry calculations for the PRS and IPRS
-mechanisms. In a PRS the nut radius is proportional to the roller radius, whereas in an IPRS
-the screw radius is proportional to the roller radius.
+This difference results in different screw and roller geometry calculations for the PRS and IPRS mechanisms. The thread start count multiplied by the roller radius defines a critical radius. For a PRS it is the nut radius, but for an IPRS it is the screw radius. The remaining geometry is derived from this relationship.
 
 ## Introduction
 
