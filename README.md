@@ -2,6 +2,13 @@
 
 Dimensions of the inverted planetary roller screw mechanism
 
+TL;DR
+
+|     | PRS (common knowledge) | IPRS (this paper) |
+|---------|----------|----------|
+| screw  | `nut * (starts - 2 ) / starts`    | `nut * starts / (starts + 2)`   |
+| roller | `nut / starts` | `nut / (starts + 2)`  |
+
   - [Abstract](#abstract)
   - [Introduction](#introduction)
   - [Geometry](#geometry)
